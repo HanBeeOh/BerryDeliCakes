@@ -5,19 +5,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-<<<<<<< HEAD
-# Add BootStrap to rails
-gem 'bootstrap-sass', '~> 3.2.0'
-gem 'autoprefixer-rails'
-=======
 # Add Bootstrap
-#gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
+# gem 'bootstrap-sass', '~> 3.3', '>= 3.3.7'
 gem 'bootstrap', '~> 4.0.0'
-
 
 # Add jQuery-rails for BootStrap JS
 gem 'jquery-rails'
->>>>>>> 02535112288444633a83d678c73312367233eab6
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.5'
 # Use postgresql as the database for Active Record

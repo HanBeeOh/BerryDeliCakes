@@ -1,0 +1,143 @@
+\!!!
+\%html{:lang =&gt; "en"}
+\%head
+\%meta{:content =&gt; "text/html; charset=UTF-8", "http-equiv" =&gt; "Content-Type"}/
+\%meta{:charset =&gt; "UTF-8"}/
+\%meta{:content =&gt; "", :name =&gt; "description"}/
+\%meta{:content =&gt; "IE=edge", "http-equiv" =&gt; "X-UA-Compatible"}/
+\%meta{:content =&gt; "width=device-width, initial-scale=1, shrink-to-fit=no", :name =&gt; "viewport"}/
+\/ The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags
+\/ Title
+\%title BerryDeli Cakes
+\/ Favicon
+\%link{:href =&gt; "img/core-img/favicon.ico", :rel =&gt; "icon"}/
+\/ Core Stylesheet
+\%link{:href =&gt; "style.css", :rel =&gt; "stylesheet"}/
+\/ Responsive CSS
+\%link{:href =&gt; "css/responsive/responsive.css", :rel =&gt; "stylesheet"}/
+\%body
+\/ Preloader Start
+\#preloader
+\.yummy-load
+\/ Background Pattern Swither
+\#pattern-switcher
+Shopping Cart
+\/ ****** Top Header Area Start ******
+\.top_header_area
+\.container
+\.row
+\.col-5.col-sm-6
+\/ Top Social bar start
+\.top_social_bar
+\%a{:href =&gt; "#"}
+\%i.fa.fa-facebook{"aria-hidden" =&gt; "true"}
+\/ Login Register Area
+\.col-7.col-sm-6
+\.signup-search-area.d-flex.align-items-center.justify-content-end
+\.login_register_area.d-flex
+\.login
+\%a{:href =&gt; "register.html"} Sign in
+\.register
+\%a{:href =&gt; "register.html"} Sign up
+\/ Search Button Area
+\.search_button
+\%a.searchBtn{:href =&gt; "#"}
+\%i.fa.fa-search{"aria-hidden" =&gt; "true"}
+\/ Search Form
+\.search-hidden-form
+\%form{:action =&gt; "#", :method =&gt; "get"}
+\%input#search-anything{:name =&gt; "search", :placeholder =&gt; "What would you like?", :type =&gt; "search"}/
+\%input.d-none{:type =&gt; "submit", :value =&gt; ""}/
+\%span.searchBtn
+\%i.fa.fa-times{"aria-hidden" =&gt; "true"}
+\/ ****** Top Header Area End ******
+\/ ****** Header Area Start ******
+\%header.header_area
+\.container
+\.row
+\/ Logo Area Start
+\.col-12
+\.logo_area.text-center
+\%a.yummy-logo{:href =&gt; "index.html"} BerryDeli Cakes
+\.row
+\.col-12
+\%nav.navbar.navbar-expand-lg
+\%button.navbar-toggler{"aria-controls" =&gt; "yummyfood-nav", "aria-expanded" =&gt; "false", "aria-label" =&gt; "Toggle navigation", "data-target" =&gt; "#yummyfood-nav", "data-toggle" =&gt; "collapse", :type =&gt; "button"}
+\%i.fa.fa-bars{"aria-hidden" =&gt; "true"}
+Menu
+\/ Menu Area Start
+\#yummyfood-nav.collapse.navbar-collapse.justify-content-center
+\%ul#yummy-nav.navbar-nav
+\%li.nav-item.active
+\%a.nav-link{:href =&gt; "index.html"}
+Home
+\%span.sr-only (current)
+\%li.nav-item
+\%a.nav-link{:href =&gt; "archive.html"} Previous Designs
+\%li.nav-item
+\%a.nav-link{:href =&gt; "flavors.html"} Flavors
+\%li.nav-item
+\%a.nav-link{:href =&gt; "reviews.html"} Customer Review
+\%li.nav-item
+\%a.nav-link{:href =&gt; "contact.html"} Contact Me
+\/ ****** Header Area End ******
+\/ ****** Your Code Goes Here ******
+\/ ****** Footer Social Icon Area Start ******
+\.social_icon_area.clearfix
+\.container
+\.row
+\.col-12
+\.footer-social-area.d-flex
+\.single-icon
+\%a{:href =&gt; "#"}
+\%i.fa.fa-facebook{"aria-hidden" =&gt; "true"}
+\%span facebook
+\/ ****** Footer Social Icon Area End ******
+\/ ****** Footer Menu Area Start ******
+\%footer.footer_area
+\.container
+\.row
+\.col-12
+\.footer-content
+\/ Logo Area Start
+\.footer-logo-area.text-center
+\%a.yummy-logo{:href =&gt; "index.html"} BerryDeli Cakes
+\/ Menu Area Start
+\%nav.navbar.navbar-expand-lg
+\%button.navbar-toggler{"aria-controls" =&gt; "yummyfood-footer-nav", "aria-expanded" =&gt; "false", "aria-label" =&gt; "Toggle navigation", "data-target" =&gt; "#yummyfood-footer-nav", "data-toggle" =&gt; "collapse", :type =&gt; "button"}
+\%i.fa.fa-bars{"aria-hidden" =&gt; "true"}
+Menu
+\/ Menu Area Start
+\#yummyfood-footer-nav.collapse.navbar-collapse.justify-content-center
+\%ul.navbar-nav
+\%li.nav-item.active
+\%a.nav-link{:href =&gt; "#"}
+Home
+\%span.sr-only (current)
+\%li.nav-item
+\%a.nav-link{:href =&gt; "archive.html"} Previous Designs
+\%li.nav-item
+\%a.nav-link{:href =&gt; "flavors.html"} Flavors
+\%li.nav-item
+\%a.nav-link{:href =&gt; "reviews.html"} Customer Review
+\%li.nav-item
+\%a.nav-link{:href =&gt; "contact.html"} Contact Me
+\.container
+\.row
+\.col-12
+\/ Copywrite Text
+\.copy_right_text.text-center
+\%p
+Copyright @2018 | BerryDeli Cakes
+\%i.fa.fa-heart-o{"aria-hidden" =&gt; "true"}
+\/ ****** Footer Menu Area End ******
+\/ Jquery-2.2.4 js
+\%script{:src =&gt; "js/jquery/jquery-2.2.4.min.js"}
+\/ Popper js
+\%script{:src =&gt; "js/bootstrap/popper.min.js"}
+\/ Bootstrap-4 js
+\%script{:src =&gt; "js/bootstrap/bootstrap.min.js"}
+\/ All Plugins JS
+\%script{:src =&gt; "js/others/plugins.js"}
+\/ Active JS
+\%script{:src =&gt; "js/active.js"}
